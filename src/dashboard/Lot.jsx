@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import Lottie from 'lottie-react'
 import animate from "../assets/Animate.json"
 
