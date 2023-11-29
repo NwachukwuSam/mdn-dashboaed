@@ -5,12 +5,12 @@ import { CardData } from '../data/CardData'
 
 
 function Dashboard() {
-    const [isNavVisible, setNavVisibility] = useState(false);
+    // const [isNavVisible, setNavVisibility] = useState(false);
     const backgroundColors = ['bg-blue-100', 'bg-emerald-100', 'bg-yellow-100', 'bg-red-100', 'bg-pink-100'];
 
-    const toggleNav = () => {
-    setNavVisibility(!isNavVisible);
-  };
+//     const toggleNav = () => {
+//     setNavVisibility(!isNavVisible);
+//   };
     
   return (
     <div className=' bg-gray-300'>
