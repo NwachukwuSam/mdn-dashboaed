@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import BarChart from './charts/BarChart'
-import { LoanData } from '../data/LoanData'
+
 
 function RightNav() {
     const [loanData, setLoanData] = useState({

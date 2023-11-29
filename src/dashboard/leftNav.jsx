@@ -1,7 +1,6 @@
 import React from 'react'
-import afit from "../assets/AFIT.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFolderPlus, faLongArrowAltUp, faMoneyBill, faMoneyBillTrendUp, faPowerOff } from '@fortawesome/free-solid-svg-icons'
+import { faMoneyBill, faPowerOff } from '@fortawesome/free-solid-svg-icons'
 
 
 function LeftNav() {
