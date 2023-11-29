@@ -6,7 +6,7 @@ import { faMoneyBill, faPowerOff } from '@fortawesome/free-solid-svg-icons'
 function LeftNav() {
   return (
     <div className=' flex flex-col md:flex-row'>
-            <div className='h-[500px]  md:w-[200px] rounded-3xl ml-[20px] mt-[50px] w-[200px]  bg-blue-500'>
+            <div className='h-[500px] rounded-3xl ml-[20px] mt-[50px] w-[200px] bg-blue-500 '>
                 
             </div>
             <div className=' font-system h-[500px] rounded-3xl ml-[-196px] mt-[50px] w-[200px] bg-white shadow-md shadow-blue-800'>
