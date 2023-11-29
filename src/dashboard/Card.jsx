@@ -18,7 +18,7 @@ function Card() {
 
                             </div>
                             <div  className={` h-[25px] w-[35px] rounded-sm mt-[5px] pr-4 pl-[-10px]  ${backgroundColors[index % backgroundColors.length]}`}>
-                            <img src={data.image} alt="image" className='hover:cursor-pointer justify-center h-[20px] w-[35px] mt-[3px] ml-[8px]'/>
+                            <img src={data.image} alt="..." className='hover:cursor-pointer justify-center h-[20px] w-[35px] mt-[3px] ml-[8px]'/>
                             </div>
                         </div>
                         <p className='text-md mt-[40px] ml-[10px]'>{data.figure}</p>
