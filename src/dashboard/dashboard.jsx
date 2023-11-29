@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import bar from "../assets/bar.png"
-import line from "../assets/line.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoneyBill, faPowerOff,  faUser } from '@fortawesome/free-solid-svg-icons'
 import { CardData } from '../data/CardData'
