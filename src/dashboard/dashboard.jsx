@@ -82,16 +82,16 @@ function Dashboard() {
     </div>
     <div className=''>
             {/* <TopBar/> */}
-            <div className='h-[180px] w-[340px] bg-white rounded-2xl ml-[60px] mt-[55px] shadow-md shadow-black'>
+            <div className='h-[150px] w-[370px] bg-white rounded-2xl ml-[60px] mt-[85px] shadow-md shadow-black'>
             <div className=' font-system text-green-950 font-semibold mt-[50px]' >
-            <h4 className=' text-xs ml-[50px] pt-[30px] '>AIRFORCE INSTITUTE OF TECHNOLOGY, KADUNA</h4>
+            <h4 className=' text-sm ml-[20px] pt-[30px] pl-[-10px] '>AIRFORCE INSTITUTE OF TECHNOLOGY, KADUNA</h4>
              
             </div>
             <div className='mt-[30px] flex'>
-              <div className='h-[35px] w-[35px] rounded-full ml-[150px] bg-zinc-600'>
+              <div className='h-[35px] w-[35px] rounded-full ml-[120px] bg-zinc-600'>
                   <FontAwesomeIcon icon={faUser} className='ml-[6px] mt-[4px] h-[25px] ' style={{ color: 'white' }}/>   
               </div>
-                <h3 className='ml-[10px] mt-[5px] font-semibold'>Samuel</h3>
+                <h3 className='ml-[0px] mt-[5px] font-semibold'>Samuel</h3>
             </div>
         
             </div>
