@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoneyBill, faPowerOff,  faUser } from '@fortawesome/free-solid-svg-icons'
 import { CardData } from '../data/CardData'
