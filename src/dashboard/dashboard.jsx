@@ -1,5 +1,4 @@
-import React from 'react'
-
+import React, { useState } from 'react'
 import bar from "../assets/bar.png"
 import line from "../assets/line.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -8,17 +7,20 @@ import { CardData } from '../data/CardData'
 
 
 function Dashboard() {
+    const [isNavVisible, setNavVisibility] = useState(false);
     const backgroundColors = ['bg-blue-100', 'bg-emerald-100', 'bg-yellow-100', 'bg-red-100', 'bg-pink-100'];
+
+    const toggleNav = () => {
+    setNavVisibility(!isNavVisible);
+  };
+    
   return (
     <div className=' bg-blue-100'>
         <div className='flex space-x-[50px]'> 
         {/* <LeftNav/> */}
         <div className=' flex flex-col md:flex-row'>
-            {/* <div className='h-[500px] rounded-3xl ml-[20px] mt-[50px] w-[200px] bg-blue-500 '>
-                
-            </div> */}
             <div className=' font-system h-[500px] rounded-3xl ml-[16px] mt-[50px] w-[200px] bg-white shadow-md shadow-blue-800'>
-                {/* <img src={afit} alt="afit" className='h-[80px] w-[80px] ml-[60px]' />  */}
+                
                 <h1 className='text-md font-semibold text-blue-950 ml-[30px] mt-[38px]'>MDA DASHBOARD</h1>
             </div>
             <div className='flex  flex-col ml-[-185px] mt-[180px] space-y-[40px]'>
@@ -56,13 +58,13 @@ function Dashboard() {
 
         <div className=''>
             {/* <TopBar/> */}
-            <div className='h-[80px] w-[740px] bg-white rounded-2xl ml-[10px] mt-[55px] shadow-md shadow-blue-700'>
+            <div className='h-[80px] w-[1040px] bg-white rounded-2xl ml-[10px] mt-[55px] shadow-md shadow-blue-700'>
             <div className='flex font-system text-blue-950 font-semibold'>
             <h4 className=' text-md ml-[40px] mt-[30px]'>AIRFORCE INSTITUTE OF TECHNOLOGY, KADUNA</h4>
              
             </div>
             <div className='mt-[-30px] flex'>
-              <div className='h-[35px] w-[35px] rounded-full ml-[600px] bg-zinc-600'>
+              <div className='h-[35px] w-[35px] rounded-full ml-[900px] bg-zinc-600'>
                   <FontAwesomeIcon icon={faUser} className='ml-[6px] mt-[4px] h-[25px] ' style={{ color: 'white' }}/>   
               </div>
                 <h3 className='ml-[10px] mt-[5px] font-semibold'>Samuel</h3>
@@ -75,7 +77,7 @@ function Dashboard() {
                 
             {/* <Card/> */}
         <div>
-        <div className='grid grid-cols-3 gap-x-[5px] gap-y-[50px] pt-[20px] ml-[10px] mt-[5px] flex-wrap items-start '>
+        <div className='grid grid-cols-4 gap-x-[5px] gap-y-[50px] pt-[20px] ml-[10px] mt-[5px] flex-wrap items-start '>
             {CardData.map((data, index) => {
                 return (
                     <div key={index} className='h-[120px] w-[240px] bg-white rounded-lg shadow-md shadow-blue-700'>
@@ -97,16 +99,6 @@ function Dashboard() {
         </div>
     </div>
         </div>
-        <div className=' flex'>
-           
-            <div className='h-[500px] rounded-3xl ml-[-20px] mt-[55px] w-[300px] bg-white shadow-md shadow-blue-800'>
-                {/* <BarChart chartData={LoanData}/> */}
-                <img src={bar} alt="bar" className=' border-none h-[150px] w-[250px] mt-[10px] ml-[10px] ' />
-              
-                <img src={line} alt="bar" className=' border-none h-[150px] w-[250px] mt-[90px] ml-[10px]  ' />
-            </div>
-            
-    </div>
         </div>
         
     </div>
