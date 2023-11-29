@@ -4,6 +4,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 
 function TopBar() {
+  
   return (
         <div className='h-[80px] w-[740px] bg-white rounded-2xl ml-[10px] mt-[55px] shadow-md shadow-blue-700'>
             <div className='flex font-system text-blue-950 font-semibold'>
