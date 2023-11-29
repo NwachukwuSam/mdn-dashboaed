@@ -5,7 +5,11 @@ import { faMoneyBill, faPowerOff } from '@fortawesome/free-solid-svg-icons'
 
 function LeftNav() {
   return (
+    <div>
+        <h4 className=' text-sm ml-[10px] pt-[10px] pl-[0px] '>AIRFORCE INSTITUTE OF TECHNOLOGY, KADUNA</h4>
+   
     <div className=' flex flex-col md:flex-row mb-[50px]'>
+        
     <div className=' font-system h-[500px] rounded-xl ml-[36px] mt-[50px] w-[200px] bg-white shadow-md shadow-black'>
         
         <h1 className='text-md font-semibold text-green-950 ml-[30px] mt-[38px]'>DASHBOARD</h1>
@@ -41,6 +45,7 @@ function LeftNav() {
             <h2 className='text-black mt-[-25px]  hover:text-gray-500  hover:cursor-pointer hover:font-semibold'>Logout</h2>
         </div>
     </div>
+</div>
 </div>
 
   )

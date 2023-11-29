@@ -7,6 +7,7 @@ function Card() {
   return (
     <div>
                 <div className='font-system text-bold mt-[40px] mb-[10px]'>
+                
                     <h3 className=' text-xl mt-[15px] ml-[30px]  text-green-950 '>Loan Statistics</h3>
                 </div>
         <div className='grid grid-cols-2 gap-x-[50px] gap-y-[50px] ml-[30px] mt-[17px] flex-wrap items-start '>
